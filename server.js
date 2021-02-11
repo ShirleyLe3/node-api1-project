@@ -71,7 +71,7 @@ server.delete("/users/:id", (req, res) => {
     } else {
         res.status(404).json({
             message: "User not found",
-        })
+        })}
 })
 
 // web servers need to be continuously listening
